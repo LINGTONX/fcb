@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Roboto&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: url(./images/fcb_temp_bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ /* Utilities */
+.container{
+  position:relative;
+  
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+li{
+  list-style: none;
+}
+.wrapper{
+  display: flex;
+}
+
+.vertical{
+  border-left: 4px solid rgba(255, 255, 255, 0.479);
+  position: absolute;
+  top: 0;
+  left: 33.1%;
+  height: 650px;
+}
+.about, .coming-soon{
+  background: #00919e7c;
+}
+.about{
+  flex: 1;
+  margin: 8% 0;
+ 
+}
+.coming-soon{
+ flex: 2;
+ margin: 8% 0;
+ padding:0 0 0 2rem;
+}
+
+.about-text{
+  padding: 40px 32px 0 32px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;
+
+}
+.about-text span{
+  font-size: 12px;
+  display: block;
+  padding: 5px 0 20px 0;
+}
+.about-logo{
+  position: absolute;
+  left: 12%;
+  bottom: 85px;
+  /* padding: 0 0 10px 0; */
+}
+.soon_div{
+  padding:5px 0 ;
+
+}
+.soon_div h3{
+  color: #ffffff;
+
+}
+.soon_div h1{
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 65px;
+  width: 350px;
+  line-height: 0.8;
+  color: #7a0c0c79;
+  /* text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
+  text-shadow: 0 2px 0 rgba(255, 255, 255, 0.26);
+}
+
+.info{
+  display: flex;
+  gap: 1rem;
+  color: #ffffff;
+  padding: 10px 0;
+  line-height: 1.2rem;
+}
+
+.info span{
+  display: block;
+  color:#003557 ;
+  font-size:20px ;
+
+}
+
+.info-1 h4, .info-2 h4{
+  font-size: 14px;
+}
+.info-1 h5{
+  margin-bottom: 0.4rem;
+  font-size: 16px;
+}
+.info-2{
+  margin-top: 1.6rem;
+}
+
+.shop-connect{
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+.shop h2, .connect h2{
+  padding: 0 0 5px 0;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.2;
+}
+.shop-list{
+  display: flex;
+  gap:1rem;
+  
+}
+.shop-list li{
+  background: #fff;
+  padding: 5px 8px 0 8px;
+  border-radius: 18px;
+}
+
+
+.social-link{
+  display: flex;
+  gap: 1rem;
+}
+.social-link li{
+  font-weight: bold;
+}
+.copy{
+  font-size: 10px;
+  letter-spacing: 0.5px; 
+  align-self: flex-end;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.copy a{
+  text-decoration: underline;
+}
