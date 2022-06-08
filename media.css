@@ -6,7 +6,7 @@
         border-left: 8px solid rgba(255, 255, 255, 0.479);
         position: absolute;
         top: 0;
-        left: 33.1%;
+        left: 48.1%;
         height: 100vh;
       }
       .wrapper{
@@ -18,7 +18,7 @@
 
       }
       .coming-soon{
-       flex: 2;
+       flex: 1;
        margin: 10% 0 0 0;
        padding:0 0 0 2rem;
       }
@@ -26,11 +26,11 @@
           width: 80%;
           margin: 0 auto;
           font-size: 40px;
-          padding: 80px 0 30px 0;
+          padding: 80px 0 30px 13rem;
       }
       .about-logo{
         position: absolute;
-        left: 12%;
+        left: 24%;
         bottom: -99px;
       }
       .about-logo img{
@@ -51,8 +51,8 @@
       .soon_div h1{
         letter-spacing: 8px;
         font-weight: 700;
-        font-size: 8rem;
-        width: 700px;
+        font-size: 10rem;
+        width: 1000px;
         line-height: 1.155;
         
       }
@@ -142,11 +142,11 @@
         border-left: 6px solid rgba(255, 255, 255, 0.479);
         position: absolute;
         top: 0;
-        left: 33.1%;
+        /* left: 33.1%; */
         height: 100vh;
       }
       .about-text{
-        padding: 40px 32px 0 32px;
+        padding: 40px 5rem 0 15rem;
         text-align: center;
         color: #ffffff;
         font-size: 22px;
@@ -157,13 +157,14 @@
     }
     .about-logo{
         bottom: 130px;
+  
     }
     .about-logo img{
         width: 150px;
     }
 
     .soon_div{
-        padding:20px 0 ;
+        padding:px 0 ;
       
       }
       .soon_div h3{
@@ -171,11 +172,11 @@
         font-size: 16px;
       }
       .soon_div h1{
-        letter-spacing: 8px;
+        letter-spacing: 10px;
         font-weight: 700;
-        font-size: 65px;
-        width: 500px;
-        line-height: 1.15;
+        font-size:95px;
+        width: 550px;
+        line-height: 1;
         
       }
       
@@ -252,7 +253,7 @@
         height: 100vh;
       }
       .about-text{
-        padding: 40px 3px 0 3px;
+        padding: 40px 4rem 0 15rem;
         font-size: 14px;
         line-height: 1.5;
       
@@ -264,7 +265,7 @@
       }
       .about-logo{
         position: absolute;
-        left: 12%;
+        left: 28%;
         bottom: 89px;
       }
       .copy{
@@ -283,9 +284,7 @@
     }
     .container{
       background: #00919e62;
-      height: 100%;
-      
-      
+      height: 100%; 
     }
     .about{
         padding: 0 10rem;
@@ -334,13 +333,9 @@
         position:static;
         text-align:center ;
     }
-    .copy{
-
-    }
       .copy a {
         display:block;
-        text-decoration: underline;
-        color:#ffffff ;
+        color:#003557 ;
       }
       footer{
         display: none;
@@ -404,7 +399,6 @@
         text-align:center ;
     }
     .mobile-footer{
-      background: #7a0c0cda;
       width: 100%;
     }
     .copy a{
@@ -436,8 +430,13 @@
         display: none;
     }
     .about-text{
-        padding: 30px 5px 0 5px;
+        padding: 30px 10px 0 10px;
+        font-size: 12px;
     }
+    .about-text span{
+      font-size: 11px;
+    }
+    
     .about, .coming-soon{
         background: none;
     }
@@ -445,11 +444,12 @@
         margin: 0;
     }
     .soon_div h1{
-        width:90%;
+        width:60%;
         margin: 0 Auto;
+        font-size: 45px;
     }
     .soon_div h3{
-        font-size: 25px;
+        font-size: 20px;
     }
     .coming-soon{
        text-align: center;
@@ -469,11 +469,10 @@
     }
 
     .mobile-footer{
-      background:#7a0c0cda;
       text-align: center;
     }
     .copy{
-      font-size: 15px;
+      font-size: 12px;
       
 
     }
@@ -498,7 +497,7 @@
       font-size:9px;
     }
     .soon_div h1{
-      font-size: 40px;
+      font-size: 35px;
     }
     .copy{
       font-size: 15px;

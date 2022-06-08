@@ -36,7 +36,7 @@ li{
   border-left: 4px solid rgba(255, 255, 255, 0.479);
   position: absolute;
   top: 0;
-  left: 33.1%;
+  left: 48.1%;
   height: 650px;
 }
 .about, .coming-soon{
@@ -48,13 +48,13 @@ li{
  
 }
 .coming-soon{
- flex: 2;
+ flex: 1;
  margin: 10% 0;
- padding:0 0 0 2rem;
+ padding:0 0 0 0rem;
 }
 
 .about-text{
-  padding: 40px 32px 0 32px;
+  padding: 40px 32px 0 62px;
   text-align: center;
   color: #ffffff;
   font-size: 14px;
@@ -68,7 +68,7 @@ li{
 }
 .about-logo{
   position: absolute;
-  left: 12%;
+  left: 25%;
   bottom: 85px;
   /* padding: 0 0 10px 0; */
 }
@@ -87,7 +87,6 @@ li{
   width: 350px;
   line-height: 0.8;
   color: #7a0c0c79;
-  /* text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff; */
   text-shadow: 0 2px 0 rgba(255, 255, 255, 0.26);
 }
 
@@ -146,7 +145,6 @@ li{
   font-weight: bold;
 }
 footer{
-  background:#7a0c0cda;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -156,11 +154,12 @@ footer{
   font-size: 22px;
   letter-spacing: 1px; 
   align-self: flex-end;
-  color: #ffffff;
+  color: #003557;
   padding: 5px 0  5px 10px;
+  text-align: center;
+  font-weight: 600;
 }
 .copy a{
-  
-  color:#01b8b8 ;
+  color:#003557 ;
 }
 
